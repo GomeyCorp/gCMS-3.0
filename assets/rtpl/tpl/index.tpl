@@ -20,7 +20,7 @@ Gomey Corp. Hey skid, want a meme?
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <script src="/bower_components/material-design-lite/material.min.js"></script>
   <!-- jQuery -->
-  <script src="http://localhost/assets/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="/assets/jquery-3.1.1.min.js" type="text/javascript"></script>
   <!-- Logo FadeIn -->
   <script type="text/javascript">
   $(document).ready(function() {
@@ -34,12 +34,12 @@ Gomey Corp. Hey skid, want a meme?
 <img src="/assets/logo.png" id="Logo" /></br></br>
 <div id="Content">
   <h1>Failing Ventures</h1></br></br>
-  <form action="http://gomey.tk/forums/">
+  <form action="/forums/">
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
       Forums
     </button>
   </form></br>
-  <form action="http://gomey.tk/boards/">
+  <form action="/boards/">
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
       Boards
     </button>
